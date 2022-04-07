@@ -6,11 +6,11 @@
 /*   By: taeykim <taeykim@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 16:30:12 by taeykim           #+#    #+#             */
-/*   Updated: 2022/04/07 15:07:29 by taeykim          ###   ########.fr       */
+/*   Updated: 2022/04/07 16:27:07 by taeykim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 size_t	ft_strlen(const char *str)
 {

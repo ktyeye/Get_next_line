@@ -6,11 +6,11 @@
 /*   By: taeykim <taeykim@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 13:37:22 by taeykim           #+#    #+#             */
-/*   Updated: 2022/04/07 15:10:50 by taeykim          ###   ########.fr       */
+/*   Updated: 2022/04/07 16:26:54 by taeykim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 int	is_newline(char *buf)
 {
