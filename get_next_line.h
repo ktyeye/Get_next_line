@@ -6,7 +6,7 @@
 /*   By: taeykim <taeykim@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 13:37:52 by taeykim           #+#    #+#             */
-/*   Updated: 2022/04/06 21:51:48 by taeykim          ###   ########.fr       */
+/*   Updated: 2022/04/07 14:58:36 by taeykim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,13 +16,10 @@
 # include <unistd.h>
 # include <fcntl.h>
 # include <stdlib.h>
+# include <limits.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 10
-# endif
-
-# ifndef OPEN_MAX
-#  define OPEN_MAX 256
 # endif
 
 size_t	ft_strlen(const char *str);

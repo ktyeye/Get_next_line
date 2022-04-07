@@ -6,7 +6,7 @@
 /*   By: taeykim <taeykim@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 16:30:12 by taeykim           #+#    #+#             */
-/*   Updated: 2022/04/06 21:40:59 by taeykim          ###   ########.fr       */
+/*   Updated: 2022/04/07 15:07:29 by taeykim          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,10 +62,7 @@ char	*ft_strjoin(char *s1, char *s2)
 	char	*str;
 
 	if (!s1)
-	{
-		s1 = (char *)malloc(1 * sizeof(char));
-		s1[0] = 0;
-	}
+		s1 = ft_strdup("");
 	if (!s1 || !s2)
 		return (0);
 	str = (char *)malloc(sizeof(char) * ((ft_strlen(s1) + ft_strlen(s2)) + 1));
